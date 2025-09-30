@@ -1,6 +1,6 @@
 # database-schema-design-task6-Public
-🗂️ SQL Developer Internship : Task 6 – Subqueries & Nested Queries
-📌 Objective
+#🗂️ SQL Developer Internship : Task 6 – Subqueries & Nested Queries
+##📌 Objective
 
 The objective of this task is to practice using subqueries in SELECT, WHERE, and FROM clauses.
 You will learn how to:
@@ -13,7 +13,7 @@ Apply subqueries with IN, EXISTS, and =
 
 Build derived tables inside FROM
 
-🛠 Tools Used
+##🛠 Tools Used
 
 DB Browser for SQLite
 
@@ -21,7 +21,7 @@ SQLiteStudio
 
 MySQL Workbench
 
-📂 Deliverables
+##📂 Deliverables
 
 subqueries_nested.sql file containing:
 
@@ -39,7 +39,7 @@ Concepts
 
 Outputs
 
-📖 Hints / Mini Guide
+##📖 Hints / Mini Guide
 
 Use scalar subqueries for single value comparisons.
 
@@ -49,13 +49,14 @@ Use subqueries inside IN, EXISTS, and = for filtering.
 
 Subqueries can also be used in the FROM clause as derived tables.
 
-📖 Interview Questions & Answers
+##📖 Interview Questions & Answers
 
 Q1. What is a subquery?
 👉 A query inside another SQL query used to fetch data for filtering or calculations.
 
 Q2. Difference between subquery and join?
-👉 Subquery executes inner query first, then outer query. Join combines rows from multiple tables in one go.
+👉 Subquery executes inner query first, then outer query.
+👉 Join combines rows from multiple tables in one go.
 
 Q3. What is a correlated subquery?
 👉 A subquery that depends on values from the outer query for execution.
@@ -91,6 +92,7 @@ Q10. What is a derived table?
 
 ✅ Derived Tables
 
-📌 Data Source
+##📌 Data Source
 
 Use the library database tables (Book, Member, Loan, Category, Author) created in earlier tasks.
+✅ Derived Table
